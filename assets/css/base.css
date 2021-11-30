@@ -1,0 +1,83 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --violet-color: #BA71DA;
+    --blue-color: #14B9D5;
+    --red-color: #F76570;
+    --green-color: #1BBC9B;
+    --orange-color: #F3A46B;
+    --yellow-color: #FFD205;
+    --text-color: #A4A4A4;
+    --cover-color: #434A54;
+    --heading-color: #5E6D81;
+    --nav-height: 80px;
+    --mid-banner-height: 281px;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 2.7rem;
+    letter-spacing: 0.1rem;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+.btn {
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.right {
+    text-align: right;
+}
+.p-t-b-10 {
+    padding: 10px 0;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+.lighter {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.cover-background {
+    background-color: var(--cover-color);
+}
+.violet-background {
+    background-color: var(--violet-color);
+}
+.blue-background {
+    background-color: var(--blue-color);
+}
+.red-background {
+    background-color: var(--red-color);
+}
+.green-background {
+    background-color: var(--green-color);
+}
+.orange-background {
+    background-color: var(--orange-color);
+}
+.yellow-background {
+    background-color: var(--yellow-color);
+}
+.pt-20 {
+    padding-top: 20px;
+}
+.pb-30 {
+    padding-bottom: 30px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
